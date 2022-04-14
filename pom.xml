@@ -4,7 +4,7 @@
 	
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<packaging>war</packaging>
 	
 	<name>maven-web-application</name>
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.110.167.128:9000/</sonar.host.url>
+		<sonar.host.url>http://3.108.215.43:9000/</sonar.host.url>
                 <sonar.login>99ae1117af237b45c81df20d6a1b8fa1b19ae362</sonar.login>
 		
              
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.122.223:8081/uday/repository/Uday-Release/</url>
+	      <url>http://3.110.167.234:8081/uday/repository/Uday-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.122.223:8081/uday/repository/Uday-Snapshot/</url>
+	      <url>http://3.110.167.234:8081/uday/repository/Uday-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
