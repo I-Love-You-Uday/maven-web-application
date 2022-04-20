@@ -31,4 +31,8 @@ node{
             sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@3.110.167.234:/opt/apache-tomcat-9.0.60/webapps/"
         }
     }
+    stage('calljob')
+    {
+        build job: "Facebook-Maventype"
+    }
 }//Node closing
