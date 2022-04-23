@@ -29,7 +29,7 @@ node('nodes')
     {
         sshagent(['9a0a269b-0dc6-42b2-9d3c-3dc479735704'])
         {
-            sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@3.110.167.234:/opt/apache-tomcat-9.0.60/webapps/"
+            sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@3.110.167.234:/opt/apache-tomcat-9.0.60/webapps"
         }
     }
     stage('calljob')
